@@ -2,7 +2,7 @@
   {
     "name": "Polaroid Maker",
     "desc": "",
-    "image": "polaroid",
+    "image": "../assets/images/projects/polaroid.jpg",
     "category": "",
     "links": {
       "view": "",
@@ -12,7 +12,7 @@
   {
     "name": "Event Management",
     "desc": "",
-    "image": "event",
+    "image": "../assets/images/projects/event.jpg",
     "category": "",
     "links": {
       "view": "",
@@ -22,7 +22,7 @@
   {
     "name": "Customer Churn Prediction",
     "desc": "",
-    "image": "ml",
+    "image": "../assets/images/projects/ml.jpg",
     "category": "",
     "links": {
       "view": "",
@@ -32,7 +32,7 @@
   {
     "name": "Fashion Store design",
     "desc": "",
-    "image": "fashion",
+    "image": "../assets/images/projects/fashion.jpg",
     "category": "",
     "links": {
       "view": "",
@@ -42,7 +42,7 @@
   {
     "name": "OCOP Store design",
     "desc": "",
-    "image": "ecommerce",
+    "image": "../assets/images/projects/ecommerce.jpg",
     "category": "",
     "links": {
       "view": "",
@@ -52,7 +52,7 @@
   {
     "name": "Wedding Studio design",
     "desc": "",
-    "image": "studio",
+    "image": "../assets/images/projects/studio.jpg",
     "category": "",
     "links": {
       "view": "",
