@@ -13,25 +13,6 @@ Portfolio website built using HTML5, CSS3, JavaScript, and jQuery.
 ### Extras : 
 Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON
 
-## 📌 Sneak Peek of Main Page 🙈 :
-To get the image link of your own website, you can follow these steps:
-
-1. **Upload the Image**: First, upload the image to your website or a hosting service (like Imgur, Dropbox, or your own server).
-
-2. **Get the URL**: Once uploaded, right-click on the image and select "Copy image address" or "Copy image link" depending on your browser.
-
-3. **Use the Link**: You can now use this link in your markdown.
-
-Here’s how you can format it in markdown:
-
-```markdown
-![Description of Image](https://your-image-link.com/image.png)
-```
-
-Replace `https://your-image-link.com/image.png` with the actual URL of your image.
-
-
-
 <h2>📬 Contact</h2>
 
 Feel free to reach me through the below handles if you'd like to contact me.
