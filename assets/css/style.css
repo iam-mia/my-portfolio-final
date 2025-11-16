@@ -289,7 +289,7 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: #00d9ff;
+  color: white;
   background-color: #09011b;
   width: 44px;
   height: 44px;
@@ -364,10 +364,10 @@ header .navbar ul li a:hover {
   width: 30rem;
   height: auto;
   border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   mix-blend-mode: luminosity;
   transition: 0.3s;
-  cursor: pointer;
+  cursor: pointer; */
 }
 .about .row .image img:hover {
   mix-blend-mode: normal;
@@ -589,13 +589,14 @@ header .navbar ul li a:hover {
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #012970;
-  padding: 0.5rem 0;
+  padding: 1rem 1rem;
   font-weight: 600;
   text-align: left;
   margin-left: 1rem;
 }
 .education .box-container .box .content p {
   font-size: 1.5rem;
+  padding: 1rem 1rem;
   margin-left: 1rem;
   text-align: left;
 }
@@ -604,6 +605,7 @@ header .navbar ul li a:hover {
   color: rgb(34, 109, 0);
   text-align: left;
   margin: 1rem;
+  padding: 1rem 1rem;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
@@ -790,7 +792,7 @@ header .navbar ul li a:hover {
   height: 25px;
   right: -17px;
   background-color: rgb(255, 255, 255);
-  border: 4px solid #ff9f55;
+  border: 4px solid #310ae0f5;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -815,9 +817,9 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #310ae0f5;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+  border-color: transparent transparent transparent #310ae0f5;
 }
 /* arrows pointing left  */
 .experience .right::before {
@@ -828,15 +830,16 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #310ae0f5;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent #310ae0f5 transparent transparent;
 }
 .experience .right::after {
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  background-color: #ffffff;
+  border: solid 2px #310ae0f5;
   position: relative;
   border-radius: 6px;
 }
@@ -932,7 +935,7 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: #fff;
   min-height: 60vh;
 }
 .contact .container {
@@ -978,7 +981,7 @@ form i {
   position: absolute;
   top: 50%;
   left: 18px;
-  color: rgb(51, 51, 51);
+  color: #999;
   font-size: 17px;
   pointer-events: none;
   transform: translateY(-50%);
@@ -992,22 +995,28 @@ form .message textarea {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
-  border: 1px solid rgb(51, 51, 51);
-  background: #e5ecfb;
+  border: 1px solid #2506ad;
+  background: #fff;
+  color: #222;
+  transition: 0.25s ease;
+  position: relative;
 }
 .field input::placeholder,
 .message textarea::placeholder {
-  color: rgb(51, 51, 51);
+  color: #999
 }
 .field input:focus,
 .message textarea:focus {
   padding-left: 47px;
-  border: 2px solid rgb(115, 3, 167);
+  border-color: #421cecf5;
+  box-shadow: 0 0 8px #421cecf5;
+  background: #fff;
 }
 .field input:focus ~ i,
 .message textarea:focus ~ i {
-  color: rgb(115, 3, 167);
+  color: #421cecf5;
 }
+
 form .message {
   position: relative;
   margin: 1rem;
